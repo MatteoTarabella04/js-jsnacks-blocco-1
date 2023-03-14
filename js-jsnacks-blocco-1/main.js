@@ -5,10 +5,10 @@ Il software stampa il maggiore.
 */
 
 // chiedo all'utente il primo numero 
-const num1 = prompt('inserire i primo numero');
+const num1 = Number(prompt('inserire i primo numero'));
 
 // chiedo all'utente il secondo numero
-const num2 = prompt('inserire i primo numero');
+const num2 = Number(prompt('inserire i secondo numero'));
 
 // verifico quale dei due è maggiore
 if (num1 > num2) {
