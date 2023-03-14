@@ -15,6 +15,7 @@ if (word1.length < word2.length) {
    
 } else if (word1.length > word2.length) {
    console.log(word2, word1);
+   
 } else {
    console.log('Le parole hanno lunghezza uguale');
 }
