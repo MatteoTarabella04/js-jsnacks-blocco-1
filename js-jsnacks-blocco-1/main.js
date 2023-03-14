@@ -10,6 +10,11 @@ const num1 = Number(prompt('inserire i primo numero'));
 // chiedo all'utente il secondo numero
 const num2 = Number(prompt('inserire i secondo numero'));
 
+// eseguo un controllo per verificare se l'utente ha inserito valori numerici
+if (isNaN(num1) && isNaN(num2)) {
+   alert('i valori inseriti non sono numerici')
+}
+
 // verifico quale dei due è maggiore
 if (num1 > num2) {
    console.log(num1, 'maggiore di', num2);
